@@ -1,5 +1,6 @@
 import { Mail, Github, Linkedin } from "lucide-react";
 import { personalInfo } from "@/data/portfolio-data";
+import profilePhoto from "@assets/Abir Chebbi_1758405046787.png";
 
 export default function HeroSection() {
   const handleContactClick = () => {
@@ -30,6 +31,14 @@ export default function HeroSection() {
     <section id="home" className="pt-20 pb-16 bg-gradient-to-br from-background to-secondary">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center fade-in">
+          <div className="mb-8">
+            <img 
+              src={profilePhoto} 
+              alt="Abir Chebbi Profile Photo" 
+              className="w-32 h-32 sm:w-40 sm:h-40 rounded-full mx-auto object-cover border-4 border-primary/20 shadow-lg hover:shadow-xl transition-shadow duration-300"
+              data-testid="profile-photo"
+            />
+          </div>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground mb-6" data-testid="hero-name">
             {personalInfo.name}
           </h1>
