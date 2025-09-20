@@ -1,0 +1,13 @@
+server/
+node_modules/
+.env*
+*.log
+.local/
+.cache/
+.git/
+README.md
+package-lock.json
+tsconfig.json
+drizzle.config.ts
+postcss.config.js
+tailwind.config.ts
