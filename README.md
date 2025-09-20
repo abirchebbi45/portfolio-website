@@ -201,7 +201,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👤 Author
 
 **Abir Chebbi**
-- 🌐 **Portfolio**: [your-portfolio-url.com](https://your-portfolio-url.com)
 - 💼 **LinkedIn**: [Abir Chebbi](https://linkedin.com/in/abir-chebbi-049119216/)
 - 🐙 **GitHub**: [@abirchebbi45](https://github.com/abirchebbi45)
 - 📧 **Email**: abirc240@gmail.com
