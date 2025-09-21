@@ -111,6 +111,33 @@ export const experiences: Experience[] = [
     period: "Sep 2024 - Oct 2024",
     description: "Developed an e-commerce platform using Laravel, Filament and Livewire. Designed and implemented the admin panel and customer portal for enhanced user experience.",
     technologies: ["PHP", "Laravel", "Livewire", "MySQL", "Tailwind"]
+  },
+  {
+    id: "5",
+    title: "Design and Development of an AI-Powered Conversational Agent",
+    company: "Smartica Solutions",
+    type: "Graduation Project",
+    period: "Feb 2022 - Jun 2022",
+    description: "Developed an AI chatbot for e-commerce using NLP and machine learning. Built backend systems for real-time data interpretation and dialogue management with natural language query processing.",
+    technologies: ["Python", "Machine Learning", "Deep Learning", "NLP", "NLTK", "SpaCy"]
+  },
+  {
+    id: "6",
+    title: "Design and Development of a Support Ticketing System",
+    company: "CDF Center",
+    type: "Internship",
+    period: "Jul 2021 - Sep 2021",
+    description: "Developed a Support Ticketing System using ASP.NET MVC and C#. Designed system architecture and integrated CRM features to enhance customer support interactions.",
+    technologies: ["ASP.NET MVC", "C#", "UML", ".NET Framework", "CRM", "Scrum"]
+  },
+  {
+    id: "7",
+    title: "IT Support and Systems Management",
+    company: "Municipality IT Department",
+    type: "Internship",
+    period: "Jan 2020 - Feb 2020",
+    description: "Assisted in installation, configuration, and troubleshooting of hardware and software systems. Conducted research and provided technology solution recommendations.",
+    technologies: ["IT Support", "Software Configuration", "System Maintenance", "Technical Assistance"]
   }
 ];
 
