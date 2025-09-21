@@ -21,5 +21,8 @@ export default defineConfig({
     rollupOptions: {
       input: path.resolve(__dirname, "client", "index.html")
     }
+  },
+  css: {
+    postcss: path.resolve(__dirname, "postcss.config.js")
   }
 });
