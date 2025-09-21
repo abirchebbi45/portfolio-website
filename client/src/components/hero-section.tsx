@@ -15,11 +15,11 @@ export default function HeroSection() {
     }
   };
 
-  const handleProjectsClick = () => {
-    const projectsSection = document.getElementById('projects');
-    if (projectsSection) {
+  const handleExperiencesClick = () => {
+    const experiencesSection = document.getElementById('experience');
+    if (experiencesSection) {
       const navHeight = 80;
-      const targetPosition = projectsSection.offsetTop - navHeight;
+      const targetPosition = experiencesSection.offsetTop - navHeight;
       window.scrollTo({
         top: targetPosition,
         behavior: 'smooth'
@@ -57,11 +57,11 @@ export default function HeroSection() {
               Get In Touch
             </button>
             <button
-              onClick={handleProjectsClick}
+              onClick={handleExperiencesClick}
               className="border border-border px-6 py-3 rounded-lg font-medium hover:bg-secondary transition-colors"
-              data-testid="button-view-projects"
+              data-testid="button-view-experiences"
             >
-              View Projects
+              View Experiences
             </button>
           </div>
           <div className="flex justify-center space-x-6">
